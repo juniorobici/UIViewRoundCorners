@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIViewRoundCorners" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHc-RY-bmD">
+                                <rect key="frame" x="20.5" y="209" width="373" height="89.5"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Adk-1E-8sP">
+                                <rect key="frame" x="20.5" y="308.5" width="373" height="89.5"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1PH-ZG-W1r">
+                                <rect key="frame" x="20.5" y="408" width="373" height="90"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-a0-IfM">
+                                <rect key="frame" x="20.5" y="508" width="373" height="89.5"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bW0-Cc-ixC">
+                                <rect key="frame" x="20.5" y="607.5" width="373" height="89.5"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="f0k-a0-IfM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="19j-l4-nCt"/>
+                            <constraint firstItem="bW0-Cc-ixC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="5Uf-TD-bDv"/>
+                            <constraint firstItem="Adk-1E-8sP" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="61X-5S-jmz"/>
+                            <constraint firstItem="1PH-ZG-W1r" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="8Kp-Q3-vre"/>
+                            <constraint firstItem="bW0-Cc-ixC" firstAttribute="top" secondItem="f0k-a0-IfM" secondAttribute="bottom" constant="10" id="8gf-x5-njO"/>
+                            <constraint firstItem="1PH-ZG-W1r" firstAttribute="centerX" secondItem="Adk-1E-8sP" secondAttribute="centerX" id="94I-wh-NPM"/>
+                            <constraint firstItem="1PH-ZG-W1r" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="9bP-kR-Qzt"/>
+                            <constraint firstItem="f0k-a0-IfM" firstAttribute="top" secondItem="1PH-ZG-W1r" secondAttribute="bottom" constant="10" id="C2a-FU-qBQ"/>
+                            <constraint firstItem="mHc-RY-bmD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="J3C-no-xyx"/>
+                            <constraint firstItem="1PH-ZG-W1r" firstAttribute="top" secondItem="Adk-1E-8sP" secondAttribute="bottom" constant="10" id="Ka6-zu-6gD"/>
+                            <constraint firstItem="Adk-1E-8sP" firstAttribute="top" secondItem="mHc-RY-bmD" secondAttribute="bottom" constant="10" id="O1v-5E-jNA"/>
+                            <constraint firstItem="f0k-a0-IfM" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="TKq-uR-wIM"/>
+                            <constraint firstItem="1PH-ZG-W1r" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="Vf4-7G-vQd"/>
+                            <constraint firstItem="Adk-1E-8sP" firstAttribute="centerX" secondItem="mHc-RY-bmD" secondAttribute="centerX" id="VgZ-y9-wU7"/>
+                            <constraint firstItem="bW0-Cc-ixC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="ZZC-FT-PKF"/>
+                            <constraint firstItem="mHc-RY-bmD" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="cak-OW-5pm"/>
+                            <constraint firstItem="Adk-1E-8sP" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="eta-PM-Ulx"/>
+                            <constraint firstItem="bW0-Cc-ixC" firstAttribute="centerX" secondItem="f0k-a0-IfM" secondAttribute="centerX" id="lm1-nA-KLw"/>
+                            <constraint firstItem="mHc-RY-bmD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qGr-lc-j4z"/>
+                            <constraint firstItem="f0k-a0-IfM" firstAttribute="centerX" secondItem="1PH-ZG-W1r" secondAttribute="centerX" id="u5f-Ix-aFQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewCinco" destination="bW0-Cc-ixC" id="BYy-ys-pcH"/>
+                        <outlet property="viewDois" destination="Adk-1E-8sP" id="9pl-Mm-jaN"/>
+                        <outlet property="viewQuatro" destination="f0k-a0-IfM" id="BLL-uJ-Rce"/>
+                        <outlet property="viewTres" destination="1PH-ZG-W1r" id="hpZ-Er-Xgf"/>
+                        <outlet property="viewUm" destination="mHc-RY-bmD" id="Lsw-Bv-LMu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+</document>
